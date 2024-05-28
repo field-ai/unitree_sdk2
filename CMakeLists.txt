@@ -42,6 +42,6 @@ if(ENABLE_BUILD)
     add_executable(h1_hand_example example/humanoid/low_level/inspire_hand.cpp)
 endif()
 
-install(DIRECTORY include/${PROJECT_NAME}/
+install(DIRECTORY include/unitree/
     DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
